@@ -96,15 +96,6 @@ class Service:
             if month == int(newDt[1]) and year == int(newDt[2]):
                 print(i.getAmount(), i.getRemark(), i.getDate())
 
-
-"""
-Task1: Month range: 04 06, 2020
-Task2: Exception handling for complete code
-Task3: Uniqueness of Category ID at the time of adding cat./generating random catid
-"""
-
-
-        
-
+ 
 
 Service().startApp()
